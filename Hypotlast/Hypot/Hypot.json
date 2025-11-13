@@ -1,0 +1,51 @@
+[
+    {
+        "op": "Hypot",
+        "input_desc": [
+            {
+                "name": "x",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16",
+                    "half", 
+                    "float32"
+                ]
+            },
+            {
+                "name": "y",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16",
+                    "half", 
+                    "float32"
+                ]
+            }
+        ],
+        "output_desc": [
+            {
+                "name": "z",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16",
+                    "half", 
+                    "float32"
+                ]
+            }
+        ]
+    }
+]
